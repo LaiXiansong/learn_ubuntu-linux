@@ -1,7 +1,7 @@
 uinstall:
 firefox
 dpkg -l | grep firefox # 找到火狐浏览器的关联包
-sudo dpkg -P firefox firefox-locale-en firefox-locale-zh-hans # 根据关联包卸载
+sudo dpkg -p firefox firefox-locale-en firefox-locale-zh-hans # 根据关联包卸载
 
 install：
 chorome
