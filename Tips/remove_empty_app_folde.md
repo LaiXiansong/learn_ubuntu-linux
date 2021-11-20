@@ -1,2 +1,3 @@
 # How to remove empty application folder
-it's very easy. Just rename it as !:)
+It's very easy.   
+Just rename it as !:)
