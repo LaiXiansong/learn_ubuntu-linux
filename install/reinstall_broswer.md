@@ -1,12 +1,11 @@
 # how to reinstall the broswer
 ## uinstall: firefox
+* 找到火狐浏览器的关联包：    
     
-    dpkg -l | grep firefox 
-
-* 找到火狐浏览器的关联包
-    
-      sudo dpkg -p firefox firefox-locale-en firefox-locale-zh-hans # 根据关联包卸载
-
+      dpkg -l | grep firefox 
+* 根据关联包卸载:
+      
+      sudo dpkg -p firefox firefox-locale-en
 ##  install： chrome
 * 官网下载安装包：
 
