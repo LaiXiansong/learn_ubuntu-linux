@@ -6,11 +6,11 @@
 ## 2.2 移动文件
 移动一个文件到另一个文件，当文件位置不变但名字变时，相当于给文件重命名。
 
-    mv file1 file2
+    mv 'filename1' 'filename2'
 ## 2.3 移除文件和文件夹
 移除文件:
     
-    rm
+    rm 'filename'
 移除文件夹：
 
-    rmdir
+    rmdir 'directory_name'
